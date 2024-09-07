@@ -7,7 +7,6 @@ public class Cancion {
     private int duracion; // en segundos
     private String genero;
     private String album;
-    
     private static final int SEGUNDOS_POR_MINUTO = 60;
 
     public Cancion() {
@@ -25,6 +24,7 @@ public class Cancion {
         this.genero = "no hay"; 
         this.album = "no hay";  
     }
+
 
     public String getTitulo() {
         return titulo;
