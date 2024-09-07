@@ -10,25 +10,22 @@ public class Cancion {
     
     private static final int SEGUNDOS_POR_MINUTO = 60;
 
-    //contructor por defecto
     public Cancion() {
-        this.titulo = "Desconocido";
-        this.artista = "Desconocido";
+        this.titulo = "nada";
+        this.artista = "nada";
         this.duracion = 0;
-        this.genero = "Desconocido";
-        this.album = "Desconocido";
+        this.genero = "nada";
+        this.album = "nada";
     }
     
-    // Constructor con parámetros
     public Cancion(String titulo, String artista, int duracion) {
         this.titulo = titulo;
         this.artista = artista;
         this.duracion = duracion;
-        this.genero = "Desconocido"; // Inicializado por defecto
-        this.album = "Desconocido";  // Inicializado por defecto
+        this.genero = "no hay"; 
+        this.album = "no hay";  
     }
 
-    //
     public String getTitulo() {
         return titulo;
     }
